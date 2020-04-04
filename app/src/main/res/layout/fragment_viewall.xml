@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#792196F3"
+    tools:context=".MainActivity">
+
+    <!-- TODO: Update blank fragment layout -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:layout_marginBottom="150dp"
+        android:gravity="center">
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingBottom="100dp"
+            android:gravity="center"
+            android:text="College Details"
+            android:textSize="32sp" />
+
+       <!-- <GridLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:columnCount="2"
+            android:padding="10dp"
+            android:rowCount="3">-->
+<!--
+            <TextView
+                android:id="@+id/textview1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Enter RollNo:" />
+
+            <EditText
+                android:id="@+id/editnumber1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:hint="Roll Number"
+                android:inputType="number" />-->
+
+           <!-- <TextView
+                android:id="@+id/textname2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Enter Name:" />
+
+            <EditText
+                android:id="@+id/editname2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:hint="Enter Name"
+                android:inputType="text" />-->
+
+         <!--   <TextView
+                android:id="@+id/textmarks3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Enter Marks:" />
+
+            <EditText
+                android:id="@+id/editmarks3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:hint=" Percentage"
+                android:inputType="numberDecimal" />-->
+
+
+        <Button
+            android:id="@+id/btnviewall"
+            android:layout_width="258dp"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:background="@color/colorAccent"
+            android:text="View All" />
+
+    </LinearLayout>
+</FrameLayout>

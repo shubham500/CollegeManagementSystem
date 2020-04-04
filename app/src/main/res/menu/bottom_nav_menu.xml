@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/add12"
+        android:icon="@drawable/ic_person_add_black_24dp"
+        android:title="ADD" />
+
+    <item
+        android:id="@+id/delete11"
+        android:icon="@drawable/deleterec"
+        android:title="Delete" />
+
+    <item
+        android:id="@+id/update11"
+        android:icon="@drawable/ic_update_black_24dp"
+        android:title="Update" />
+
+    <item
+        android:id="@+id/view1"
+        android:icon="@drawable/ic_pageview_black_24dp"
+        android:title="View" />
+    <item
+        android:id="@+id/viewAll1"
+        android:icon="@drawable/viewalllrec"
+        android:title="ViewAll" />
+
+</menu>
